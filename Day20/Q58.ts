@@ -1,3 +1,4 @@
+// creating a program that calcultes average of score
 function score (...scores) {
     return scores.reduce((a, b) => (a + b) / scores.length, 0);
 }
