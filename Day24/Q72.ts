@@ -1,4 +1,4 @@
-
+//creating variables inside curly brackets "{}" and trying to access them from outside the curly brackets.
 
 {
     let letVariable = "This is a let variable";

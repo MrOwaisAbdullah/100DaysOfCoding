@@ -1,3 +1,5 @@
+//creating variables with let and const and trying to reassign them
+
 let age = 5;
 age = 23;
 console.log(age);
