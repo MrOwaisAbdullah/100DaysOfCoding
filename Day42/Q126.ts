@@ -1,4 +1,4 @@
-//Explaining how this keyword behaves differently when used within nested functions inside an object method. (We can only use arrow function for log as nested function inside an object, because regular functions create their own `this` context when called, but arrow functions do not create their own `this` context. Instead, they capture the `this` value from their surrounding.)
+//Explaining how this keyword behaves differently when used within nested functions inside an object method.
 
 let myObject = {
     property: "Value",
