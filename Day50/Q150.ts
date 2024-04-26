@@ -1,6 +1,9 @@
+//comparing how asynchronous callbacks differ from synchronous code execution.
+
+//synchronous example
 console.log("Before synchronous operation");
 // Simulate a synchronous blocking operation
-for (let i = 0; i < 1e9; i++) {} // A long loop
+for (let i = 0; i < 1e9; i++) {}
 console.log("After synchronous operation");
 
 // Asynchronous example
